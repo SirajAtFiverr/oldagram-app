@@ -74,6 +74,7 @@ header{
 
 .icon{
     width: 25px;
+    cursor: pointer;
 }
 
 .post-image{
