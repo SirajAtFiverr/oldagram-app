@@ -88,14 +88,16 @@ header{
 
 /* hover effect */
 
-.like-icon:hover{
-    content: url('images/icon-heart-hover.png');
-}
-
-.dm-icon:hover{
-    content: url('images/icon-dm-hover.png');
-}
-
-.comment-icon:hover{
-    content: url(images/icon-comment-hover.png);
+@media (hover: hover) {
+    .like-icon:hover{
+        content: url('images/icon-heart-hover.png');
+    }
+    
+    .dm-icon:hover{
+        content: url('images/icon-dm-hover.png');
+    }
+    
+    .comment-icon:hover{
+        content: url(images/icon-comment-hover.png);
+    }
 }
