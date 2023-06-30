@@ -1,0 +1,87 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* layout */
+
+#app{
+    width: 300px;
+    margin: 10px;
+}
+
+header, .post-header, .post-footer {
+    padding: 10px;
+    display: flex;
+}
+
+header{
+    justify-content: space-between;
+    background-color: white;
+}
+
+.post{
+    margin: 2px auto;
+    background-color: white;
+}
+
+.post-header{
+     gap:20px;
+}
+
+.post-owner-info-section{
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.post-footer{
+    flex-direction: column;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.icons-section{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+/* Images */
+
+.logo{
+    width: 120px;
+    height: 50px;
+}
+
+.avatar{
+    width: 50px;
+}
+
+.avatar, .logo{
+    border-radius: 50%;
+}
+
+.icon{
+    width: 25px;
+}
+
+.post-image{
+    width: 100%;
+}
+
+/* others */
+
+.user-name{
+    font-weight: bold;
+}
